@@ -41,10 +41,10 @@
   </con:eventHandlers>
   <con:environment id="2de28937-b0b3-4216-811c-f4d445204b06" name="Endpoints" index="0">
     <con:service type="SOAP" name="Test_serviceSoap">
-      <con:endpoint authProfile="Inherit From Parent" username="" password="" domain="" incomingWss="" outgoingWss="" wssTimeToLive="" wssType="">http://rapis02.aqa.com.ru/SOAP/Service1.asmx</con:endpoint>
+      <con:endpoint authProfile="Inherit From Parent" username="" password="" domain="" incomingWss="" outgoingWss="" wssTimeToLive="" wssType="">http://conflict.tut</con:endpoint>
     </con:service>
     <con:service type="REST" name="Service 1">
-      <con:endpoint authProfile="Inherit From Parent" proxyHost="" proxyPort="" proxyUsername="" proxyPassword="">http://example.com</con:endpoint>
+      <con:endpoint authProfile="Inherit From Parent" proxyHost="" proxyPort="" proxyUsername="" proxyPassword="">http://conflict.tut</con:endpoint>
     </con:service>
     <con:databaseConnectionContainer/>
     <con:jmsConnectionContainer/>
