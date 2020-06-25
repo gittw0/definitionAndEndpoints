@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<con:operation id="c3e84416-edf1-44ea-a462-c729c7906063" isOneWay="false" action="http://localhost/test_service/Service1.asmx/Ran_XML" name="Ran_XML" bindingOperationName="Ran_XML" type="Request-Response" inputName="" receivesAttachments="false" sendsAttachments="false" anonymous="optional" xmlns:con="http://eviware.com/soapui/config">
+  <con:settings>
+    <con:setting id="c3e84416-edf1-44ea-a462-c729c7906063fileName">Ran_XML</con:setting>
+  </con:settings>
+  <con:call id="4ab6a996-6240-41b7-b126-721e571928e5" name="Request 1">
+    <con:settings/>
+    <con:encoding>UTF-8</con:encoding>
+    <con:endpoint>http://rapis02.aqa.com.ru/SOAP/Service1.asmx</con:endpoint>
+    <con:request><![CDATA[<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:ser="http://localhost/test_service/Service1.asmx">\r
+   <soapenv:Header/>\r
+   <soapenv:Body>\r
+      <ser:Ran_XML>\r
+         <ser:x>?</ser:x>\r
+      </ser:Ran_XML>\r
+   </soapenv:Body>\r
+</soapenv:Envelope>]]></con:request>
+    <con:wsaConfig mustUnderstand="NONE" version="200508" action="http://localhost/test_service/Service1.asmx/Ran_XML"/>
+  </con:call>
+</con:operation>

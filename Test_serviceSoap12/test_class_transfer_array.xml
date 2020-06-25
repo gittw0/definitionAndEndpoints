@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<con:operation id="5c044fe3-bed6-41e3-b2d7-afe74919d151" isOneWay="false" action="http://localhost/test_service/Service1.asmx/test_class_transfer_array" name="test_class_transfer_array" bindingOperationName="test_class_transfer_array" type="Request-Response" inputName="" receivesAttachments="false" sendsAttachments="false" anonymous="optional" xmlns:con="http://eviware.com/soapui/config">
+  <con:settings>
+    <con:setting id="5c044fe3-bed6-41e3-b2d7-afe74919d151fileName">test_class_transfer_array</con:setting>
+  </con:settings>
+  <con:call id="013df4ad-f3a2-4e5d-8b23-a874c4d80001" name="Request 1">
+    <con:settings/>
+    <con:encoding>UTF-8</con:encoding>
+    <con:endpoint>http://rapis02.aqa.com.ru/SOAP/Service1.asmx</con:endpoint>
+    <con:request><![CDATA[<soap:Envelope xmlns:soap="http://www.w3.org/2003/05/soap-envelope" xmlns:ser="http://localhost/test_service/Service1.asmx">\r
+   <soap:Header/>\r
+   <soap:Body>\r
+      <ser:test_class_transfer_array>\r
+         <!--Optional:-->\r
+         <ser:x>\r
+            <!--Zero or more repetitions:-->\r
+            <ser:int>?</ser:int>\r
+         </ser:x>\r
+      </ser:test_class_transfer_array>\r
+   </soap:Body>\r
+</soap:Envelope>]]></con:request>
+    <con:wsaConfig mustUnderstand="NONE" version="200508" action="http://localhost/test_service/Service1.asmx/Test_serviceSoap/test_class_transfer_arrayRequest"/>
+  </con:call>
+</con:operation>

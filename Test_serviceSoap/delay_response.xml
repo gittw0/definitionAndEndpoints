@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<con:operation id="fe346379-86e6-439c-9073-f8b1902008de" isOneWay="false" action="http://localhost/test_service/Service1.asmx/delay_response" name="delay_response" bindingOperationName="delay_response" type="Request-Response" inputName="" receivesAttachments="false" sendsAttachments="false" anonymous="optional" xmlns:con="http://eviware.com/soapui/config">
+  <con:settings>
+    <con:setting id="fe346379-86e6-439c-9073-f8b1902008defileName">delay_response</con:setting>
+  </con:settings>
+  <con:call id="7dd19dbe-0dc6-408f-857a-f141840edbfd" name="Request 1">
+    <con:settings/>
+    <con:encoding>UTF-8</con:encoding>
+    <con:endpoint>http://rapis02.aqa.com.ru/SOAP/Service1.asmx</con:endpoint>
+    <con:request><![CDATA[<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:ser="http://localhost/test_service/Service1.asmx">\r
+   <soapenv:Header/>\r
+   <soapenv:Body>\r
+      <ser:delay_response>\r
+         <ser:t>?</ser:t>\r
+      </ser:delay_response>\r
+   </soapenv:Body>\r
+</soapenv:Envelope>]]></con:request>
+    <con:wsaConfig mustUnderstand="NONE" version="200508" action="http://localhost/test_service/Service1.asmx/delay_response"/>
+  </con:call>
+</con:operation>

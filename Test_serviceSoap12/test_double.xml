@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<con:operation id="59852b08-a2f8-432a-a27e-2830dc2da9e1" isOneWay="false" action="http://localhost/test_service/Service1.asmx/test_double" name="test_double" bindingOperationName="test_double" type="Request-Response" inputName="" receivesAttachments="false" sendsAttachments="false" anonymous="optional" xmlns:con="http://eviware.com/soapui/config">
+  <con:settings>
+    <con:setting id="59852b08-a2f8-432a-a27e-2830dc2da9e1fileName">test_double</con:setting>
+  </con:settings>
+  <con:call id="4df9b6d9-adc8-499e-aa35-6755cc6757f3" name="Request 1">
+    <con:settings/>
+    <con:encoding>UTF-8</con:encoding>
+    <con:endpoint>http://rapis02.aqa.com.ru/SOAP/Service1.asmx</con:endpoint>
+    <con:request><![CDATA[<soap:Envelope xmlns:soap="http://www.w3.org/2003/05/soap-envelope" xmlns:ser="http://localhost/test_service/Service1.asmx">\r
+   <soap:Header/>\r
+   <soap:Body>\r
+      <ser:test_double/>\r
+   </soap:Body>\r
+</soap:Envelope>]]></con:request>
+    <con:wsaConfig mustUnderstand="NONE" version="200508" action="http://localhost/test_service/Service1.asmx/Test_serviceSoap/test_doubleRequest"/>
+  </con:call>
+</con:operation>

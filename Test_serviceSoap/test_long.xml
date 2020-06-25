@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<con:operation id="220cd5e5-9017-4ae3-be86-170fdc6ee2e6" isOneWay="false" action="http://localhost/test_service/Service1.asmx/test_long" name="test_long" bindingOperationName="test_long" type="Request-Response" inputName="" receivesAttachments="false" sendsAttachments="false" anonymous="optional" xmlns:con="http://eviware.com/soapui/config">
+  <con:settings>
+    <con:setting id="220cd5e5-9017-4ae3-be86-170fdc6ee2e6fileName">test_long</con:setting>
+  </con:settings>
+  <con:call id="b10f1782-757d-4f2b-b186-5df3c79cdd05" name="Request 1">
+    <con:settings/>
+    <con:encoding>UTF-8</con:encoding>
+    <con:endpoint>http://rapis02.aqa.com.ru/SOAP/Service1.asmx</con:endpoint>
+    <con:request><![CDATA[<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:ser="http://localhost/test_service/Service1.asmx">\r
+   <soapenv:Header/>\r
+   <soapenv:Body>\r
+      <ser:test_long/>\r
+   </soapenv:Body>\r
+</soapenv:Envelope>]]></con:request>
+    <con:wsaConfig mustUnderstand="NONE" version="200508" action="http://localhost/test_service/Service1.asmx/test_long"/>
+  </con:call>
+</con:operation>

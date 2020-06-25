@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<con:operation id="4979bc9d-2805-4a38-a03e-86b7bed6d62c" isOneWay="false" action="http://localhost/test_service/Service1.asmx/test_decimal" name="test_decimal" bindingOperationName="test_decimal" type="Request-Response" inputName="" receivesAttachments="false" sendsAttachments="false" anonymous="optional" xmlns:con="http://eviware.com/soapui/config">
+  <con:settings>
+    <con:setting id="4979bc9d-2805-4a38-a03e-86b7bed6d62cfileName">test_decimal</con:setting>
+  </con:settings>
+  <con:call id="1c4ce4fe-a5ef-4568-8f1a-671544918c37" name="Request 1">
+    <con:settings/>
+    <con:encoding>UTF-8</con:encoding>
+    <con:endpoint>http://rapis02.aqa.com.ru/SOAP/Service1.asmx</con:endpoint>
+    <con:request><![CDATA[<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:ser="http://localhost/test_service/Service1.asmx">\r
+   <soapenv:Header/>\r
+   <soapenv:Body>\r
+      <ser:test_decimal/>\r
+   </soapenv:Body>\r
+</soapenv:Envelope>]]></con:request>
+    <con:wsaConfig mustUnderstand="NONE" version="200508" action="http://localhost/test_service/Service1.asmx/test_decimal"/>
+  </con:call>
+</con:operation>
