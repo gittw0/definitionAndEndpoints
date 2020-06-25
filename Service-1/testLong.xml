@@ -9,7 +9,7 @@
     <con:parameters/>
     <con:request name="Request 1" id="f6f8785b-a0d5-4960-b48b-44efd9c46a3b" mediaType="application/json">
       <con:settings/>
-      <con:endpoint>http://rapis02.aqa.com.ru</con:endpoint>
+      <con:endpoint>http://conflict.tut</con:endpoint>
       <con:parameters/>
     </con:request>
   </con:method>
