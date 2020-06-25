@@ -4,7 +4,9 @@
     <con:setting id="7093c29e-9e5b-487c-9085-b20d2a7850acfileName">Con_Stroka</con:setting>
   </con:settings>
   <con:call id="8698b6c1-221f-4938-a132-9606a23821ba" name="Request 1">
-    <con:settings/>
+    <con:settings>
+      <con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;xml-fragment/></con:setting>
+    </con:settings>
     <con:encoding>UTF-8</con:encoding>
     <con:endpoint>http://rapis02.aqa.com.ru/SOAP/Service1.asmx</con:endpoint>
     <con:request><![CDATA[<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:ser="http://localhost/test_service/Service1.asmx">\r

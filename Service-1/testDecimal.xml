@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<con:resource name="" path="testDecimal" id="faebecf3-a305-4564-b963-e23c05381d33" xmlns:con="http://eviware.com/soapui/config">
+  <con:settings>
+    <con:setting id="faebecf3-a305-4564-b963-e23c05381d33fileName">testDecimal</con:setting>
+  </con:settings>
+  <con:parameters/>
+  <con:method name="" id="80b7c619-e033-4f7e-ac21-1f83baf7b495" method="GET">
+    <con:settings/>
+    <con:parameters>
+      <con:parameter>
+        <con:name>t</con:name>
+        <con:value xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+        <con:style>QUERY</con:style>
+        <con:type xmlns:xs="http://www.w3.org/2001/XMLSchema">xs:float</con:type>
+        <con:default xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+      </con:parameter>
+    </con:parameters>
+    <con:request name="Request 1" id="3a9a599d-8990-467f-9fb7-8339d62d2a23" mediaType="application/json">
+      <con:settings/>
+      <con:endpoint>http://rapis02.aqa.com.ru</con:endpoint>
+      <con:parameters/>
+    </con:request>
+  </con:method>
+</con:resource>

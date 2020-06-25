@@ -1,12 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <con:soapui-project id="34b652e9-998c-462c-bd77-9d00c453b460" created="3.3.0-AT" activeEnvironment="Default environment" name="SOAP Project 1" resourceRoot="" compositeProjectFormat="1.3" updated="3.3.0-AT" xmlns:con="http://eviware.com/soapui/config">
-  <con:settings/>
+  <con:settings>
+    <con:setting id="34b652e9-998c-462c-bd77-9d00c453b460fileName">SOAP-Project-1</con:setting>
+  </con:settings>
   <con:properties/>
   <con:wssContainer/>
   <con:databaseConnectionContainer/>
   <con:jmsConnectionContainer/>
   <con:oAuth2ProfileContainer/>
   <con:oAuth1ProfileContainer/>
+  <con:reporting/>
   <con:eventHandlers type="RequestFilter.filterRequest" name="RequestFilter.filterRequest">
     <con:script>// Sample event script to add custom HTTP header to all outgoing REST, SOAP and HTTP(S) calls
 // This code is often used for adding custom authentication to SoapUI Pro tests
@@ -36,6 +39,16 @@
 // pw.close()
 // fos.close()</con:script>
   </con:eventHandlers>
+  <con:environment id="2de28937-b0b3-4216-811c-f4d445204b06" name="Endpoints" index="0">
+    <con:service type="SOAP" name="Test_serviceSoap">
+      <con:endpoint authProfile="Inherit From Parent" username="" password="" domain="" incomingWss="" outgoingWss="" wssTimeToLive="" wssType="">http://rapis02.aqa.com.ru/SOAP/Service1.asmx</con:endpoint>
+    </con:service>
+    <con:service type="REST" name="Service 1">
+      <con:endpoint authProfile="Inherit From Parent" proxyHost="" proxyPort="" proxyUsername="" proxyPassword="">http://example.com</con:endpoint>
+    </con:service>
+    <con:databaseConnectionContainer/>
+    <con:jmsConnectionContainer/>
+  </con:environment>
   <con:authRepository/>
   <con:tags/>
 </con:soapui-project>

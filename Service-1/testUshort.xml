@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<con:resource name="" path="testUshort" id="31933ce4-6484-467f-aab2-b7552ef05dd2" xmlns:con="http://eviware.com/soapui/config">
+  <con:settings>
+    <con:setting id="31933ce4-6484-467f-aab2-b7552ef05dd2fileName">testUshort</con:setting>
+  </con:settings>
+  <con:parameters/>
+  <con:method name="" id="d5f4c30f-b39b-4ee1-a637-2b45fc724cd2" method="GET">
+    <con:settings/>
+    <con:parameters>
+      <con:parameter>
+        <con:name>t</con:name>
+        <con:value xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+        <con:style>QUERY</con:style>
+        <con:type xmlns:xs="http://www.w3.org/2001/XMLSchema">xs:integer</con:type>
+        <con:default xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+      </con:parameter>
+    </con:parameters>
+    <con:request name="Request 1" id="143dea53-b7a1-4d39-8bb6-9a9c76bcc962" mediaType="application/json">
+      <con:settings/>
+      <con:endpoint>http://rapis02.aqa.com.ru</con:endpoint>
+      <con:parameters/>
+    </con:request>
+  </con:method>
+</con:resource>

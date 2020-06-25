@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<con:resource name="" path="getArrayInt" id="7b3acff4-ef1f-4e3f-9e77-dc5ee7216e99" xmlns:con="http://eviware.com/soapui/config">
+  <con:settings>
+    <con:setting id="7b3acff4-ef1f-4e3f-9e77-dc5ee7216e99fileName">getArrayInt</con:setting>
+  </con:settings>
+  <con:parameters/>
+  <con:method name="" id="e7f8a7ab-9076-4ad8-a6b9-55a1d7d1c551" method="POST">
+    <con:settings/>
+    <con:parameters/>
+    <con:request name="Request 1" id="a6311f63-4b0a-4339-835e-ae5a94e01e3b" mediaType="application/json">
+      <con:settings/>
+      <con:endpoint>http://rapis02.aqa.com.ru</con:endpoint>
+      <con:parameters/>
+    </con:request>
+  </con:method>
+</con:resource>

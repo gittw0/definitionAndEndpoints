@@ -1,0 +1,242 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<con:interface xsi:type="con:RestService" id="ac4080f7-44f1-4768-8a9c-2e4fece7f533" wadlVersion="http://research.sun.com/wadl/2006/10" name="Service 1" type="rest" definitionUrl="http://rapis02.aqa.com.ru/wcfrest/service.wadl" basePath="/WCFREST/Service.svc/" xmlns:con="http://eviware.com/soapui/config" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <con:settings>
+    <con:setting id="ac4080f7-44f1-4768-8a9c-2e4fece7f533fileName">Service-1</con:setting>
+  </con:settings>
+  <con:definitionCache type="TEXT" rootPart="http://rapis02.aqa.com.ru/wcfrest/service.wadl">
+    <con:part>
+      <con:url>http://rapis02.aqa.com.ru/wcfrest/service.wadl</con:url>
+      <con:content><![CDATA[<application xsi:schemaLocation="http://research.sun.com/wadl/2006/10 wadl.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns="http://research.sun.com/wadl/2006/10">
+  <resources base="http://rapis02.aqa.com.ru/WCFREST/Service.svc/">
+    <resource path="Vse">
+      <method name="GET">
+        <request>
+          <param name="x" type="xsd:integer" style="query"></param>
+          <param name="y" type="xsd:integer" style="query"></param>
+          <param name="z" style="query"></param>
+        </request>
+      </method>
+    </resource>
+    <resource path="transferArray">
+      <method name="POST">
+        <request/>
+      </method>
+    </resource>
+    <resource path="HelloWorld">
+      <method name="GET">
+        <request/>
+      </method>
+    </resource>
+    <resource path="Date">
+      <method name="GET">
+        <request/>
+      </method>
+    </resource>
+    <resource path="delayResponse">
+      <method name="GET">
+        <request>
+          <param name="t" type="xsd:integer" style="query"></param>
+        </request>
+      </method>
+    </resource>
+    <resource path="GetAllRecords">
+      <method name="GET">
+        <request/>
+      </method>
+    </resource>
+    <resource path="testUshort">
+      <method name="GET">
+        <request>
+          <param name="t" type="xsd:integer" style="query"></param>
+        </request>
+      </method>
+    </resource>
+    <resource path="ConStroka">
+      <method name="GET">
+        <request>
+          <param name="x" type="xsd:string" style="query"></param>
+          <param name="y" type="xsd:string" style="query"></param>
+        </request>
+      </method>
+    </resource>
+    <resource path="testUlong">
+      <method name="GET">
+        <request>
+          <param name="t" type="xsd:integer" style="query"></param>
+        </request>
+      </method>
+    </resource>
+    <resource path="testUint">
+      <method name="GET">
+        <request>
+          <param name="t" type="xsd:integer" style="query"></param>
+        </request>
+      </method>
+    </resource>
+    <resource path="testString">
+      <method name="GET">
+        <request>
+          <param name="t" style="query"></param>
+        </request>
+      </method>
+    </resource>
+    <resource path="testInt">
+      <method name="GET">
+        <request>
+          <param href="#tParam"/>
+        </request>
+      </method>
+    </resource>
+    <resource path="testLong">
+      <method name="GET">
+        <request>
+          <param href="#tParam"/>
+        </request>
+      </method>
+    </resource>
+    <resource path="testSbyte">
+      <method name="GET">
+        <request>
+          <param href="#tParam"/>
+        </request>
+      </method>
+    </resource>
+    <resource path="testShort">
+      <method name="GET">
+        <request>
+          <param name="t" type="xsd:integer" style="query"></param>
+        </request>
+      </method>
+    </resource>
+    <resource path="testFloat">
+      <method name="GET">
+        <request>
+          <param name="t" type="xsd:float" style="query"></param>
+        </request>
+      </method>
+    </resource>
+    <resource path="testDouble">
+      <method name="GET">
+        <request>
+          <param name="t" type="xsd:float" style="query"></param>
+        </request>
+      </method>
+    </resource>
+    <resource path="testDecimal">
+      <method name="GET">
+        <request>
+          <param name="t" type="xsd:float" style="query"></param>
+        </request>
+      </method>
+    </resource>
+    <resource path="testClassArray">
+      <method name="GET">
+        <request/>
+      </method>
+    </resource>
+    <resource path="testClass">
+      <method name="GET">
+        <request/>
+      </method>
+    </resource>
+    <resource path="testChar">
+      <method name="GET">
+        <request>
+          <param name="t" type="xsd:string" style="query"></param>
+        </request>
+      </method>
+    </resource>
+    <resource path="testByte">
+      <method name="GET">
+        <request>
+          <param name="t" type="xsd:integer" style="query"></param>
+        </request>
+      </method>
+    </resource>
+    <resource path="testBool">
+      <method name="GET">
+        <request>
+          <param name="t" type="xsd:boolean" style="query"></param>
+        </request>
+      </method>
+    </resource>
+    <resource path="testComplexClass">
+      <method name="POST">
+        <request/>
+      </method>
+    </resource>
+    <resource path="testClassTransferArray">
+      <method name="POST">
+        <request/>
+      </method>
+    </resource>
+    <resource path="testClassArrayInputArray">
+      <method name="POST">
+        <request/>
+      </method>
+    </resource>
+    <resource path="TestClassArray2InputArray">
+      <method name="POST">
+        <request/>
+      </method>
+    </resource>
+    <resource path="getArrayInt">
+      <method name="POST">
+        <request/>
+      </method>
+    </resource>
+    <resource path="getArrayString">
+      <method name="POST">
+        <request/>
+      </method>
+    </resource>
+    <resource path="inheritanceClass">
+      <method name="POST">
+        <request/>
+      </method>
+    </resource>
+    <resource path="inheritanceClassSuper">
+      <method name="POST">
+        <request/>
+      </method>
+    </resource>
+    <resource path="massiv">
+      <method name="GET">
+        <request/>
+      </method>
+    </resource>
+    <resource path="InputDate">
+      <method name="GET">
+        <request>
+          <param name="d" type="xsd:dateTime" style="query"></param>
+        </request>
+      </method>
+    </resource>
+    <resource path="Ran">
+      <method name="GET">
+        <request>
+          <param name="x" type="xsd:integer" style="query"></param>
+        </request>
+      </method>
+    </resource>
+    <resource path="Stroka">
+      <method name="GET">
+        <request>
+          <param name="x" type="xsd:string" style="query"></param>
+        </request>
+      </method>
+    </resource>
+    <resource path="objectInObject">
+      <method name="GET">
+        <request/>
+      </method>
+    </resource>
+  </resources>
+</application>]]></con:content>
+      <con:type>http://research.sun.com/wadl/2006/10</con:type>
+    </con:part>
+  </con:definitionCache>
+  <con:endpoints>
+    <con:endpoint>http://rapis02.aqa.com.ru</con:endpoint>
+  </con:endpoints>
+</con:interface>
