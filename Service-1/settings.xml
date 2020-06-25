@@ -237,6 +237,6 @@
     </con:part>
   </con:definitionCache>
   <con:endpoints>
-    <con:endpoint>http://rapis02.aqa.com.ru</con:endpoint>
+    <con:endpoint>http://conflict.tut</con:endpoint>
   </con:endpoints>
 </con:interface>
