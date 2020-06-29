@@ -24,7 +24,7 @@
       <s:element name="Vse">
         <s:complexType>
           <s:sequence>
-            <s:element minOccurs="1" maxOccurs="1" name="x" type="s:int"/>
+            <s:element minOccurs="1" maxOccurs="10" name="x" type="s:int"/>
             <s:element minOccurs="1" maxOccurs="1" name="y" type="s:int"/>
             <s:element minOccurs="0" maxOccurs="1" name="z" type="s:string"/>
           </s:sequence>
